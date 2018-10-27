@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Introduction](README.md)
 * [June 16th - 22nd](jun-16-22.md)
 * [June 23rd - 29th](jun-23-29.md)
 * [Sep. 24 - 30](sep.-24-30.md)
