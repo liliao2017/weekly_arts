@@ -1,0 +1,65 @@
+# June 23rd - 29th
+
+## Algorithm
+
+This week I studied an useful algorithm dfs, and the solutions to related questions in leetcode. It is usually implemented with recursion:
+
+```text
+dfs(current_node):
+    if (current_node is target):
+        return
+    else:
+        dfs(all connecting nodes to current_node)
+```
+
+One classic problem which can be solved using dfs is to find the subsets. 
+
+For example, to list all combinations of k elements from a list of size n, the general solution is:
+
+```python
+# start: current elements num in temp
+# target: num of elements still need
+def dfs(nums, start, temp, target):  
+    if len(nums)-start < target:
+        return
+    if target == 0:
+        # create a new temp list, not to push the original one
+        result.append(temp[:])
+        return
+
+    temp.append(nums[start])
+    dfs(nums, start + 1, temp, target-1)
+    temp.pop()
+    dfs(nums, start + 1, temp, target)
+
+
+result = []
+dfs([1,2,3, 4], 0, [], 3)
+print(result)
+# [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]]
+```
+
+Dfs can also be used to solve graph related problems. Compared with bfs which is more suitable to find the best solution \(shorted path\), dfs can be used to check whether a solution exists, like whether a graph is connected.
+
+Here is a blog talking about many problems can be solved with dfs in leetcode:
+
+[https://www.hrwhisper.me/leetcode-recursive-or-dfs/](https://www.hrwhisper.me/leetcode-recursive-or-dfs/)
+
+## Review
+
+This week I read some articles talking about java, and here I summarized some notes about jvm and gc theory. 
+
+### Java JVM
+
+### Java GC
+
+## Tips and Sharing
+
+This week one of my colleagues made a sharing on cookies, and here is what I learned from this sharing:
+
+### cookie and session
+
+###  cookie and csrf validation
+
+### third party cookie
+
