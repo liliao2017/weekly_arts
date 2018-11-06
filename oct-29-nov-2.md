@@ -1,6 +1,17 @@
 # Oct 29 - Nov 2
 
-## Tips
+## Algorithm
+
+[https://leetcode.com/problems/integer-to-english-words/](https://leetcode.com/problems/integer-to-english-words/)
+
+General idea is to split the number into groups of 3 digits, and change that 3-digit number into english words. There are many tricky points such as how to deal with 'zero'.
+
+```text
+def words(n):
+
+```
+
+## ,Tips
 
 1. setUpClass\(\) and setUp\(\)
 
