@@ -11,7 +11,7 @@ def words(n):
 
 ```
 
-## ,Tips
+## Tips
 
 1. setUpClass\(\) and setUp\(\)
 
