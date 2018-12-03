@@ -8,4 +8,5 @@
 * [Oct 8-14](oct-8-14.md)
 * [Oct 22-28](oct-22-28.md)
 * [Oct 29 - Nov 2](oct-29-nov-2.md)
+* [3 Dec - 9 Dec](3-dec-9-dec.md)
 
