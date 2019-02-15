@@ -16,7 +16,7 @@
 ## 2019
 
 * [Jan 7 - 13](2019/jan-7-13.md)
-* [Jan 14 -20](2019/jan-14-20.md)
+* [Jan 14 -20 \[verchar vs text\] \[domain vs ip vs host\]](2019/jan-14-20.md)
 * [Jan 21-27](2019/jan-21-27.md)
-* [Feb 11-17](2019/feb-11-17.md)
+* [Feb 11-17 \[CORS config\]](2019/feb-11-17.md)
 
