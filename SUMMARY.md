@@ -19,4 +19,5 @@
 * [Jan 14 -20 \[verchar vs text\] \[domain vs ip vs host\]](2019/jan-14-20.md)
 * [Jan 21-27](2019/jan-21-27.md)
 * [Feb 11-17 \[CORS config\]](2019/feb-11-17.md)
+* [Feb 4-10 \[django multiple database\]](2019/feb-4-10.md)
 
