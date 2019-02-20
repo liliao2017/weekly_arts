@@ -14,9 +14,19 @@ qps: query per second, 每秒请求数。response time: 单个请求的响应时
 
 ### **parallelism**
 
+并行：同一时刻有超过一个task在执行。
+
+最简单的例子是多线程/进程。单线程无法达到并行状态。
+
 ### **concurrency**
 
-\*\*\*\*
+通常所说的并发，指的是程序结构/设计支持并发请求。
 
+正确的并发设计的标准是：使多个操作可以在重叠的时间段内进行\(two tasks can start, run, and complete in overlapping time periods\)。除了上文所说的并行，协程\(coroutine\)也是一种并发。
 
+![&#x534F;&#x7A0B;](../.gitbook/assets/image%20%285%29.png)
+
+关于并发和并行，可以参考这篇博客：
+
+{% embed url="https://laike9m.com/blog/huan-zai-yi-huo-bing-fa-he-bing-xing,61/" %}
 
