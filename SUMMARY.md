@@ -22,4 +22,5 @@
 * [Feb 4-10 \[django multiple database\]](2019/feb-4-10.md)
 * [Feb 18-24 \[concurrency, qps, and container\]](2019/feb-18-24-concurrency-and-qps.md)
 * [Feb 25 - March 3](2019/feb-25-march-3.md)
+* [March 4 - March 10 \[timezone\]](2019/march-4-march-10-timezone.md)
 
